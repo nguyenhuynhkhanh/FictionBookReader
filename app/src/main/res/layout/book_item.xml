@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/book_thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="16dp"
+        android:background="@color/accent_material_dark"
+        android:contentDescription="@string/book_thumbnail" />
+
+    <TextView
+        android:id="@+id/book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/book_thumbnail"
+        android:maxLines="1"
+        android:text="@string/hello_world"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/book_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book_title"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/book_thumbnail"
+        android:maxLines="1"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/book_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book_thumbnail"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxLines="3"
+        android:text="@string/a_long_string" />
+
+</RelativeLayout>

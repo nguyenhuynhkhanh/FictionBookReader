@@ -16,6 +16,7 @@ public class HomeActivityTest extends ActivityInstrumentationTestCase2<HomeActiv
     }
 
     public void testHomeActivity_Contains_HomeFragment(){
-        assertEquals("Home activity should contains the home fragment", true, getActivity().getSupportFragmentManager().findFragmentById(R.id.fragment) != null);
+        //TODO NguyenHuynh: need to update the code
+        assertEquals("Home activity should contains the home fragment", true, false);
     }
 }

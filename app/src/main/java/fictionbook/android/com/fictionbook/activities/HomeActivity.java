@@ -1,18 +1,40 @@
 package fictionbook.android.com.fictionbook.activities;
 
-import android.support.v7.app.AppCompatActivity;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 import fictionbook.android.com.fictionbook.R;
+import fictionbook.android.com.fictionbook.adapters.ListBookAdapter;
+import fictionbook.android.com.fictionbook.models.Book;
 
 public class HomeActivity extends AppCompatActivity {
+
+    //TODO NguyenHuynh: replace this using real data from server
+    private ArrayList<Book> mFakedBooks;
+
+    private void createFakedBooks() {
+        mFakedBooks = new ArrayList<>();
+        for(int i = 1; i < 10; i++) {
+            Book book = new Book(i, "Book " + i, "Description", BitmapFactory.decodeResource(getResources(), R.drawable.book_icon));
+            mFakedBooks.add(book);
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        createFakedBooks();
+
         setContentView(R.layout.activity_home);
+        ListView recomendedBooks = (ListView) findViewById(R.id.recommended_books);
+        ListBookAdapter adapter = new ListBookAdapter(this, mFakedBooks);
+        recomendedBooks.setAdapter(adapter);
     }
 
     @Override

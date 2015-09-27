@@ -2,4 +2,8 @@
     <string name="app_name">Fiction Book</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="current_book">current book</string>
+    <string name="book_thumbnail">book thumbnail</string>
+    <string name="recommended_for_you">Recommended for you</string>
+    <string name="a_long_string">The maneki-neko (Japanese: 招き猫?, literally "beckoning cat") is a common Japanese figurine (lucky charm, talisman) which is often believed to bring good luck to the owner. In modern times, they are usually made of ceramic or plastic. The figurine depicts a cat (traditionally a calico Japanese Bobtail) beckoning with an upright paw, and is usually displayed—often at the entrance—of shops, restaurants, pachinko parlors, and other businesses. Some of the sculptures are electric or battery-powered and have a slow-moving paw beckoning.</string>
 </resources>

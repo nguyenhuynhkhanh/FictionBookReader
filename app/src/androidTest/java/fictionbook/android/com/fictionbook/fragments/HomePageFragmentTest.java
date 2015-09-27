@@ -20,9 +20,9 @@ public class HomePageFragmentTest extends ActivityInstrumentationTestCase2<HomeA
 
     @Test
     public void testHomePageFragment_Contains_A_TextView() {
-        Fragment fragment = getActivity().getSupportFragmentManager().findFragmentById(R.id.fragment);
-        TextView greetingText = (TextView) fragment.getView().findViewById(R.id.homePageText);
+        //TODO NguyenHuynh: need to update the code
+        String greetingText = "";
 
-        assertEquals("Fragment should show hellow world", "Hello world!", greetingText.getText());
+        assertEquals("Fragment should show hellow world", "Hello world!", greetingText);
     }
 }
