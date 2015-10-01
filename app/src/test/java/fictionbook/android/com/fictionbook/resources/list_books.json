@@ -1,0 +1,39 @@
+{
+  "books": [
+    {
+      "id" : "1",
+      "author" : "book author 1",
+      "title" : "book 1",
+      "thumbnail" : "https://cdn.tutsplus.com/net/uploads/legacy/252_fridayFreebie/masteringRegularExpressions.jpg",
+      "description" : "a short description of the book"
+    },
+    {
+      "id" : "2",
+      "author" : "book author 2",
+      "title" : "book 2",
+      "thumbnail" : "http://alvand.basu.ac.ir/~dezfoulian/files/Programming/O'Reilly%20-%20Practical%20C++%20Programming,%202nd%20Ed.,%20ISBN%20%200-596-00419-2%20-%20Dec%202002.jpg",
+      "description" : "a short description of the book"
+    },
+    {
+      "id" : "3",
+      "author" : "book author 3",
+      "title" : "book 3",
+      "thumbnail" : "http://s.radar.oreilly.com/wp-files/7/2013/03/expect.gif",
+      "description" : "a short description of the book"
+    },
+    {
+      "id" : "4",
+      "author" : "book author 4",
+      "title" : "book 4",
+      "thumbnail" : "http://i.somethingawful.com/inserts/articlepics/photoshop/variety3/Blinkz0rz_godfather.jpg",
+      "description" : "a short description of the book"
+    },
+    {
+      "id" : "5",
+      "author" : "book author 5",
+      "title" : "book 5",
+      "thumbnail" : "http://www.julienlecomte.net/blogfiles/20100203/high-performance-javascript-book-cover.gif",
+      "description" : "a short description of the book"
+    }
+  ]
+}
