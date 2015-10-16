@@ -1,0 +1,5 @@
+{
+  "integerField" : 1,
+  "stringField" : "a simple string",
+  "doubleField" : 3.5
+}

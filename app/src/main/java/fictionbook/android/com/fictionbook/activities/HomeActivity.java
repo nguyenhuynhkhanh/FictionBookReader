@@ -11,12 +11,15 @@ import java.util.ArrayList;
 
 import fictionbook.android.com.fictionbook.R;
 import fictionbook.android.com.fictionbook.adapters.ListBookAdapter;
+import fictionbook.android.com.fictionbook.helpers.BookLoaderBase;
+import fictionbook.android.com.fictionbook.helpers.HttpBookLoader;
 import fictionbook.android.com.fictionbook.models.Book;
 
 public class HomeActivity extends AppCompatActivity {
 
     //TODO NguyenHuynh: replace this using real data from server
     private ArrayList<Book> mFakedBooks;
+    private BookLoaderBase mBookLoader;
 
     private void createFakedBooks() {
         mFakedBooks = new ArrayList<>();
@@ -29,6 +32,8 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mBookLoader = new HttpBookLoader();
+        mBookLoader.getListBooks();
         createFakedBooks();
 
         setContentView(R.layout.activity_home);

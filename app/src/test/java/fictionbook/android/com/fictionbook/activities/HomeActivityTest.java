@@ -1,7 +1,6 @@
 package fictionbook.android.com.fictionbook.activities;
 
 import android.os.Build;
-import android.test.ActivityInstrumentationTestCase2;
 import android.widget.ListView;
 
 import org.junit.Before;
@@ -11,16 +10,12 @@ import org.robolectric.Robolectric;
 import org.robolectric.RobolectricGradleTestRunner;
 import org.robolectric.annotation.Config;
 
-import java.io.File;
 import java.io.InputStream;
 
 import fictionbook.android.com.fictionbook.BuildConfig;
 import fictionbook.android.com.fictionbook.R;
-import fictionbook.android.com.fictionbook.TestHelper;
 
 import static junit.framework.Assert.assertNotNull;
-import static org.hamcrest.core.IsNull.notNullValue;
-import static org.junit.Assert.assertThat;
 
 /**
  * Created by Moon on 9/23/2015.

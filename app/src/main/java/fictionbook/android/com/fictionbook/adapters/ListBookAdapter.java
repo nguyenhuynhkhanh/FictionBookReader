@@ -10,13 +10,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fictionbook.android.com.fictionbook.R;
+import fictionbook.android.com.fictionbook.listeners.DataLoaderListener;
 import fictionbook.android.com.fictionbook.models.Book;
 import fictionbook.android.com.fictionbook.viewholders.BookItemViewHolder;
 
 /**
  * Created by Moon on 9/27/2015.
  */
-public class ListBookAdapter extends BaseAdapter {
+public class ListBookAdapter extends BaseAdapter implements DataLoaderListener{
     private List<Book> mBooks;
     private Context mContext;
 
@@ -60,5 +61,10 @@ public class ListBookAdapter extends BaseAdapter {
 
         itemView.setTag(viewHolder);
         return itemView;
+    }
+
+    @Override
+    public void onDataLoaded() {
+        //TODO NguyenHuynh: reload the books lists
     }
 }
