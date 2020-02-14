@@ -13,4 +13,6 @@ truong code 2
 
 develop
 
+<<<<<<< HEAD
 develop tin nguyen
+
