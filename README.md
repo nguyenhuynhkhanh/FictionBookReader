@@ -8,3 +8,4 @@ One of my favorite book is: dawn of the planet
 
 Continue...
 truong code 1
+truong code 2
