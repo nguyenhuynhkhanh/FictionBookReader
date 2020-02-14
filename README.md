@@ -7,5 +7,8 @@ One of my favorite book is: dawn of the planet
 <An unexpected line in my code>
 
 Continue...
+
 something luc
-something luc1
+something lu
+truong code 1
+
